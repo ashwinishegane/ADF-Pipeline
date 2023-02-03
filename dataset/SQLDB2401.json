@@ -1,0 +1,34 @@
+{
+	"name": "SQLDB2401",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer24_01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Cust_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Age",
+				"type": "varchar"
+			},
+			{
+				"name": "Customer_Segment",
+				"type": "varchar"
+			},
+			{
+				"name": "Customer_Vintage_Group",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Customer"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

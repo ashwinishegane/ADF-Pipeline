@@ -1,0 +1,13 @@
+{
+	"name": "DS_ASQLToBlob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ASQLtoBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
