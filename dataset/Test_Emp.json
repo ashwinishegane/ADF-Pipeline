@@ -1,5 +1,5 @@
 {
-	"name": "DS_Emp_Input",
+	"name": "Test_Emp",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_ADLS",
@@ -18,6 +18,10 @@
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"type": "String"
+			}
+		]
 	}
 }
