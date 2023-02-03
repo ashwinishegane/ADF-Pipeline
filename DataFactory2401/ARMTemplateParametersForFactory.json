@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DataFactory2401"
+		},
+		"Customer_LS_2401_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_ASQLtoBlob_connectionString": {
+			"value": ""
+		},
+		"SqlServer24_01_connectionString": {
+			"value": ""
+		},
+		"AKVLS_ASQL_properties_typeProperties_baseUrl": {
+			"value": "https://datacatalog-kv-01.vault.azure.net/"
+		},
+		"Customer_LS_2401_properties_typeProperties_url": {
+			"value": "https://creditcardraw.dfs.core.windows.net/"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://creditcardraw.dfs.core.windows.net/"
+		}
+	}
+}
