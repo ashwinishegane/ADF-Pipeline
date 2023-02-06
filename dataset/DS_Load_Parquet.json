@@ -1,0 +1,38 @@
+{
+	"name": "DS_Load_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "part-00000-tid-5486500567070191098-65ede8c0-67a6-4dd7-8398-9dc5ec8a0b5f-25-1-c000.snappy.parquet",
+				"folderPath": "Cards",
+				"fileSystem": "curated"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "Card_Number",
+				"type": "UTF8"
+			},
+			{
+				"name": "Card_Family",
+				"type": "UTF8"
+			},
+			{
+				"name": "Cust_ID",
+				"type": "UTF8"
+			},
+			{
+				"name": "Credit_Limit",
+				"type": "DOUBLE"
+			}
+		]
+	}
+}
