@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVaultPurview",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://datacatalog-kv-01.vault.azure.net/"
+		}
+	}
+}
